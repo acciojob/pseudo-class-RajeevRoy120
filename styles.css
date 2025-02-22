@@ -6,15 +6,15 @@
 
 #container::before,
 #container::after {
-    content: "Special Text ";
+    content: "Element ";
     color: #f00;
     font-size: 20px;
 }
 
 #container::before {
-    content: "Before: Special Text ";
+    content: "Before: Element ";
 }
 
 #container::after {
-    content: " After: Special Text";
+    content: " After: Element";
 }
